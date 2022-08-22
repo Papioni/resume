@@ -1,0 +1,197 @@
+/* .banner{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(0,0,0,0), 
+   rgba (0,0,0,75),url(cakeshoplogo.png);
+   background-size: cover;
+   background-position: center;
+} */
+hr{
+    color: firebrick;
+    box-shadow: rgb(56, 45, 56);
+}
+img{
+    border-radius: 20%;
+    border-color: brown;
+    border-style: groove;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+}
+p{
+    font-family: Helvetica;
+    /* background-color: rgb(8, 5, 1);  */
+    text-align: center;
+    color: rgb(158, 23, 23);
+    border-radius: 50px;
+}
+body{
+    background-color:whitesmoke;
+    /* background-image: url(../images/cakeshoplogo.png); */
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+div, ul, li {
+    display:inline-block;
+    list-style-type:georgian;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 90px;
+    border-radius: 20px;
+    background-color:cadetblue, rgba(192, 16, 16) ;
+    color: cornsilk;
+    text-decoration-color: indianred;
+}
+li{
+
+}
+h1{
+    color:rgb(252, 220, 255);
+    font-style: italic;
+    animation: blinkingText 0.9s infinite;
+    font-weight: bolder;
+    background-color: rgb(73, 78, 68);
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55acee;
+    color: white;
+}
+.cake{
+    box-shadow: 0 4px  8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price{
+    color: grey;
+    font-size: 22px;
+}
+.cake button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+     color: white;
+     background-color: #000;
+     text-align: center;
+     cursor: pointer;
+     width: 100%;
+     font-size: 18px;
+}
+.cake button:hover{
+    opacity: 0.7;
+}
+/* .topnav{
+    background-color: rgb(10, 14, 10); */
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.active{
+    background-color: #a01717;
+    color: whitesmoke;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #881818;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: rgb(11, 91, 105);
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 500px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
